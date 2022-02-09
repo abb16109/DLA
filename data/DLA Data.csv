@@ -1,0 +1,1000 @@
+isolate,leafsp,trt,area,lesion1,lesion2,lesion3,totlesion,Unattributed infection area,Percent Infected Attributed Only,Percent Infected Attributed + Unnattributed,AB_Notes,VM_Notes,0% infection
+411Laciag,Aspicr,1,2819.84,0,0,0,0,0,0.00%,0.00%,,,yes
+411Laciag,Aspicr,2,2823.139,26.471,8.684,0,35.155,0,1.25%,1.25%,2 punctures had small black circles surrounding ,,
+411 Laciag,Aspicr,3,3044.66,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Aspicr,4,3085.184,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Aspicr,5,2385.502,15.241,11.675,17.896,44.812,0,1.88%,1.88%,3 punctures had small black circles surrounding ,,
+411 Laciag,Aspicr,Control 1,3839.529,8.519,7.049,0,15.568,0,0.41%,0.41%,2 punctures had small black circles surrounding ,,
+411 Laciag,Aspicr,Control 2,3512.351,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Aspicr,Control 3,2772.367,0,0,0,0,0,0.00%,0.00%,,,yes
+411Laciag,Aspicr,Control 4,3565.019,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Aspicr,Control 5,3528.455,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Castel,1,2355.401,25,75.26,0,100.26,2255.141,4.26%,100.00%,,,
+411 Laciag,Castel,2,1843.453,N/A,N/A,N/A,0,N/A,0.00%,0.00%,Fully brown dried out leaf,agree. too crunchy to take data on,
+411 Laciag,Castel,3,3265.901,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Castel,4,2127.691,0,0,0,0,0,0.00%,0.00%,"One puncture with a little bit of black on it, a little yellow",,yes
+411 Laciag,Castel,5,1454.66,0,0,0,0,0,0.00%,0.00%,2 punctures with a little black around,,yes
+411Laciag,Castel,Control 1,3187.927,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Castel,Control 2,4222.808,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Castel,Control 3,2550.914,14.884,10.392,0,25.276,228.417,0.99%,9.95%,This leaf seems to have other brown spots not connected to punctures--not lesion? -- update added to unattributed,not lesion! ,
+411Laciag,Castel,Control 4,18387.247,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Castel,Control 5,6541.138,457.662,0,0,457.662,0,7.00%,7.00%,Some other browning not along the punctures,,
+411 Laciag,Dendar,1,3127.319,0,0,0,0,0,0.00%,0.00%,,,yes
+411Laciag,Dendar,2,6672.806,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Dendar,3,3303.918,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Dendar,4,4272.425,0,0,0,0,0,0.00%,0.00%,,,yes
+411Laciag,Dendar,5,3255.963,7.78,0,0,7.78,0,0.24%,0.24%,,,
+411 Laciag,Dendar,Control 1,1971.476,13.66,21.974,0,35.634,0,1.81%,1.81%,very light lesions around punctures,,
+411 Laciag,Dendar,Control 2,3551.541,17.129,0,0,17.129,0,0.48%,0.48%,,,
+411Laciag,Dendar,Control 3,5241.062,16.835,0,0,16.835,0,0.32%,0.32%,,,
+411 Laciag,Dendar,Control 4,2778.421,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Dendar,Control 5,2720.265,0,0,0,0,0,0.00%,0.00%,,,yes
+411Laciag,Mourmy,1,305.861,8.768,4.743,0,13.511,0,4.42%,4.42%,Also brown spot not around lesion not measured,,
+411 Laciag,Mourmy,2,197.479,22.235,15.435,7.19,44.86,0,22.72%,22.72%,,,
+411 Laciag,Mourmy,3,61.795,N/A,N/A,N/A,0,N/A,0.00%,0.00%,Fully brown leaf dried out,confirmed!,
+411Laciag,Mourmy,4,84.446,N/A,N/A,N/A,0,N/A,0.00%,0.00%,Fully brown dried out leaf,confirmed!,
+411 Laciag,Mourmy,5,114.486,N/A,N/A,N/A,0,N/A,0.00%,0.00%,Fully brown dried out leaf,confirmed!,
+411 Laciag,Mourmy,Control 1,402.826,7.086,4.421,0,11.507,0,2.86%,2.86%,,,
+411Laciag,Mourmy,Control 2,199.937,7.901,7.915,0,15.816,0,7.91%,7.91%,light brown lesions,,
+411 Laciag,Mourmy,Control 3,109.91,N/A,N/A,N/A,0,N/A,0.00%,0.00%,whole leaf brown/dried out,confirmed,
+411 Laciag,Mourmy,Control 4,144.933,11.7,0,0,11.7,0,8.07%,8.07%,,,
+411Laciag,Mourmy,Control 5,159.38,14.176,0,0,14.176,0,8.89%,8.89%,lesion is black spot. ,,
+411 Laciag,Ormoma,1,3503.136,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Ormoma,2,2836.894,0,0,0,0,0,0.00%,0.00%,,,yes
+411Laciag,Ormoma,3,1823.42,24.823,0,0,24.823,0,1.36%,1.36%,,,
+411 Laciag,Ormoma,4,1794.553,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Ormoma,5,1917.816,0,0,0,0,0,0.00%,0.00%,,,yes
+411Laciag,Ormoma,Control 1,4997.891,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Ormoma,Control 2,4925.438,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Ormoma,Control 3,4338.019,0,0,0,0,0,0.00%,0.00%,,,yes
+411Laciag,Ormoma,Control 4,4205.449,15.597,15.214,0,30.811,0,0.73%,0.73%,,,
+411 Laciag,Ormoma,Control 5,4684.798,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Randar,1,1025.245,44.593,61.553,46.008,152.154,0,14.84%,14.84%,,,
+411Laciag,Randar,2,1073.488,5.677,0,0,5.677,0,0.53%,0.53%,,,
+411 Laciag,Randar,3,1114.689,4.43,4.857,0,9.287,0,0.83%,0.83%,,,
+411 Laciag,Randar,4,664.774,22.203,55.423,20.856,98.482,0,14.81%,14.81%,,,
+411Laciag,Randar,5,1089.977,6.766,16.509,9.692,32.967,0,3.02%,3.02%,,,
+411 Laciag,Randar,Control 1,1302.284,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Randar,Control 2,942.512,0,0,0,0,0,0.00%,0.00%,,,yes
+411Laciag,Randar,Control 3,1063.2,42.77,13.788,0,56.558,0,5.32%,5.32%,,,
+411 Laciag,Randar,Control 4,971.023,4.386,22.941,0,27.327,0,2.81%,2.81%,,,
+411 Laciag,Randar,Control 5,2218.479,28.949,0,0,28.949,0,1.30%,1.30%,,,
+411Laciag,Tri2pa,1,1025.725,13.029,9.182,14.391,36.602,,3.57%,3.57%,,,
+411 Laciag,Tri2pa,2,827.309,9.73,6.551,10.945,27.226,0,3.29%,3.29%,,,
+411 Laciag,Tri2pa,3,882.948,7.232,7.418,6.419,21.069,0,2.39%,2.39%,unsure if lesion 2 is just the punch,,
+411Laciag,Tri2pa,4,1471.448,0,0,0,0,0,0.00%,0.00%,want to make sure this is actually 0,,
+411 Laciag,Tri2pa,5,851.279,41.167,18.967,7.176,67.31,0,7.91%,7.91%,lesion 3 may just be puncture double check,,
+411 Laciag,Tri2pa,Control 1,1428.778,0,0,0,0,0,0.00%,0.00%,,,yes
+411Laciag,Tri2pa,Control 2,2044.661,0,0,0,0,0,0.00%,0.00%,,,yes
+411 Laciag,Tri2pa,Control 3,1117.648,22.543,0,0,22.543,0,2.02%,2.02%,,,
+411Laciag,Tri2pa,Control 4,1305.723,14.737,0,0,14.737,0,1.13%,1.13%,,,
+411 Laciag,Tri2pa,Control 5,1006.036,27.114,10.97,0,38.084,0,3.79%,3.79%,,,
+713 Propta,Aspicr,1,2495.845,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Aspicr,2,2017.017,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Aspicr,3,2134.022,21.93,55.884,268.306,346.12,0,16.22%,16.22%,,,
+713 Propta,Aspicr,4,1718.824,105.121,104.746,38.366,248.233,0,14.44%,14.44%,,,
+713 Propta,Aspicr,5,1702.288,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Aspicr,Control 1,1887.005,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Aspicr,Control 2,1987.416,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Aspicr,Control 3,3059.336,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Aspicr,Control 4,1330.375,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Aspicr,Control 5,2435.748,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Castel,1,1997.123,110.387,0,0,110.387,,5.53%,5.53%,this leaf seems to have a lot of unrelated brown spots,,
+713 Propta,Castel,2,2450.772,60.679,0,0,60.679,,2.48%,2.48%,large brown spot covering most of the leaf -- can't attribute to puncture,,
+713 Propta,Castel,3,2394.333,0,0,0,0,2394.333,0.00%,100.00%,Mostly brown but can't attribute to puncture,,
+713 Propta,Castel,4,1590.315,0,0,0,0,1590.315,0.00%,100.00%,fully infected (can't attribute to punctures),,
+713 Propta,Castel,5,2268.385,0,0,0,0,0,0.00%,0.00%,Brown parts but can't attribute to puncture,,
+713 Propta,Castel,Control 1,3086.159,0,0,0,0,3086.159,0.00%,100.00%,looks fully rotten,,
+713 Propta,Castel,Control 2,2066.447,0,0,0,0,2066.447,0.00%,100.00%,looks fully rotten,,
+713 Propta,Castel,Control 3,2830.716,34.395,0,0,34.395,1124.423,1.22%,40.94%,,,
+713 Propta,Castel,Control 4,2035.408,,,,0,2035.408,0.00%,100.00%,looks fully rotten,,
+713 Propta,Castel,Control 5,1277.545,0,0,0,0,1277.545,0.00%,100.00%,Looks fully rotten,,
+713 Propta,Dendar,1,3013.852,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Dendar,2,2437.852,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Dendar,3,3365.172,1469.144,0,0,1469.144,,43.66%,43.66%,,,
+713 Propta,Dendar,4,2567.384,2122.916,0,0,2122.916,0,82.69%,82.69%,,,
+713 Propta,Dendar,5,2806.527,2696.36,0,0,2696.36,0,96.07%,96.07%,,,
+713 Propta,Dendar,Control 1,2641.759,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Dendar,Control 2,3638.931,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Dendar,Control 3,2566.49,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Dendar,Control 4,1893.169,1458.146,0,0,1458.146,0,77.02%,77.02%,attributed because around punctures - but unsure if I should label as unattributed,,
+713 Propta,Dendar,Control 5,1643.377,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Mourmy,1,202.54,3.6,2.83,5.29,11.72,0,5.79%,5.79%,,,
+713 Propta,Mourmy,2,255.784,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Mourmy,3,149.032,2.66,2.291,3.144,8.095,0.618,5.43%,5.85%,I think that there's no infection but double check,,yes
+713 Propta,Mourmy,4,149.149,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Mourmy,5,117.002,4.43,3.271,0,7.701,0,6.58%,6.58%,Leaf dried out partially,,
+713 Propta,Mourmy,Control 1,186.12,3.788,3.354,2.903,10.045,0,5.40%,5.40%,small infections? or just how puncture looks,I'll count it. ,
+713 Propta,Mourmy,Control 2,144.15,3.694,4.275,3.182,11.151,0,7.74%,7.74%,small infections? or just how puncture looks,,
+713 Propta,Mourmy,Control 3,176.139,2.877,2.172,2.464,7.513,0,4.27%,4.27%,small infections? or just how puncture looks,,
+713 Propta,Mourmy,Control 4,99.482,2.075,2.556,1.614,6.245,0,6.28%,6.28%,small infections? or just how puncture looks,,
+713 Propta,Mourmy,Control 5,129.222,2.955,2.54,3.252,8.747,0,6.77%,6.77%,small infections? or just how puncture looks,,
+713 Propta,Ormoma,1,2586.882,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Ormoma,2,2283.82,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Ormoma,3,4711.21,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Ormoma,4,4352.27,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Ormoma,5,2300.322,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Ormoma,Control 1,2229.84,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Ormoma,Control 2,3160.381,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Ormoma,Control 3,3966.919,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Ormoma,Control 4,3307.762,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Ormoma,Control 5,3814.358,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Randar,1,786.225,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Randar,2,1032.855,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Randar,3,877.623,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Randar,4,956.789,4.059,0,0,4.059,0,0.42%,0.42%,I think that there's no infection but double check,I thought the wet one looked promising,
+713 Propta,Randar,5,1056.852,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Randar,Control 1,1619.537,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Randar,Control 2,1239.915,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Randar,Control 3,798.414,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Randar,Control 4,856.201,23.386,0,0,23.386,0,2.73%,2.73%,,,
+713 Propta,Randar,Control 5,1004.611,16.829,20.23,0,37.059,0,3.69%,3.69%,,,
+713 Propta,Tri2pa,1,1280.004,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Tri2pa,2,2289.999,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Tri2pa,3,1990.916,0,0,0,0,0,0.00%,0.00%,tip dried out,,yes
+713 Propta,Tri2pa,4,2289.069,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Tri2pa,5,2482.531,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Tri2pa,Control 1,557.485,0,0,0,0,0,0.00%,0.00%,slightly dried out,,yes
+713 Propta,Tri2pa,Control 2,1017.496,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Tri2pa,Control 3,1757.306,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Tri2pa,Control 4,1527.092,0,0,0,0,0,0.00%,0.00%,,,yes
+713 Propta,Tri2pa,Control 5,2366.58,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Aspicr,1,4086.147,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Aspicr,2,5429.117,29.232,34.734,19.89,83.856,0,1.54%,1.54%,,,
+1217 Anacex,Aspicr,3,4075.786,0,0,3708.799,3708.799,0,91.00%,91.00%,This one is weird it is discolored unsure if it is infected,I played with the contrast and it looks like most of this leaf has tissue damage. I'm only marking one area as the total lesion because they are blended together. ,
+1217 Anacex,Aspicr,4,3082.796,0,0,0,0,0,0.00%,0.00%,Unsure what the white stuff is didn't measure as infection but if it is I can add it,"I agree. It's unclear what the origin is (the white stuff is fungal mycelium), and where it is located on the leaf. I played with contrast and couldn't see anything distinctive.",
+1217 Anacex,Aspicr,5,6520.352,0,0,0,3866.316,0,59.30%,59.30%,This one is weird it is discolored unsure if it is infected,There is something going on here. It's pretty cool- when you play with the contrast you can see textural differences on the leaf. ,
+1217 Anacex,Aspicr,Control 1,3905.547,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Aspicr,Control 2,5084.102,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Aspicr,Control 3,2904.368,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Aspicr,Control 4,3805.921,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Aspicr,Control 5,4658.763,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Castel,1,5545.765,26.487,67.406,165.475,259.368,2166.938,4.68%,43.75%,Looks fully infected (unattributed) all of the castel leaves look partially dried out as well,,
+1217 Anacex,Castel,2,4504.702,0,0,0,0,4504.702,0.00%,100.00%,Looks fully infected (unattributed),,
+1217 Anacex,Castel,3,1400.643,0,0,0,0,1400.643,0.00%,100.00%,Looks fully infected (unattributed),,
+1217 Anacex,Castel,4,1718.752,0,0,0,0,1718.752,0.00%,100.00%,Looks fully infected (unattributed),,
+1217 Anacex,Castel,5,2331.82,0,0,0,0,2331.82,0.00%,100.00%,Looks fully infected (unattributed),,
+1217 Anacex,Castel,Control 1,1860.264,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Castel,Control 2,2511.233,0,0,0,0,386.701,0.00%,15.40%,looks partially dried out (left unnattributed),,
+1217 Anacex,Castel,Control 3,5023.86,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Castel,Control 4,5475.904,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Castel,Control 5,3037.633,0,0,0,0,0,0.00%,0.00%,looks yellow/dried unsure if N/A,,
+1217 Anacex,Dendar,1,4162.012,45.318,0,0,45.318,0,1.09%,1.09%,,,
+1217 Anacex,Dendar,2,3448.586,56.288,0,0,56.288,0,1.63%,1.63%,,,
+1217 Anacex,Dendar,3,3401.762,22.214,36.839,0,59.053,0,1.74%,1.74%,,,
+1217 Anacex,Dendar,4,5366.314,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Dendar,5,3933.757,23.165,0,0,23.165,0,0.59%,0.59%,,,
+1217 Anacex,Dendar,Control 1,7053.486,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Dendar,Control 2,8900.549,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Dendar,Control 3,6739.471,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Dendar,Control 4,8903.842,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Dendar,Control 5,5466.412,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Mourmy,1,775.947,17.142,12.625,4.835,34.602,0,4.46%,4.46%,,,
+1217 Anacex,Mourmy,2,588.009,203.518,0,0,203.518,0,34.61%,34.61%,double check this-- connected 3 lesions,,
+1217 Anacex,Mourmy,3,346.06,0,0,0,0,346.06,0.00%,100.00%,looks fully infected (unattributed),,
+1217 Anacex,Mourmy,4,496.256,47.322,30.781,47.72,125.823,0,25.35%,25.35%,double check this,,
+1217 Anacex,Mourmy,5,532.613,172.677,0,0,172.677,0,32.42%,32.42%,double check this-- connected 3 lesions,,
+1217 Anacex,Mourmy,Control 1,626.311,0,0,0,0,0,0.00%,0.00%,can't tell if this is infected,,
+1217 Anacex,Mourmy,Control 2,787.758,0,0,0,0,24.077,0.00%,3.06%,unattributed is dried out tip,,
+1217 Anacex,Mourmy,Control 3,467.132,0,0,0,0,0,0.00%,0.00%,whole leaf looks a little discolored double check,,
+1217 Anacex,Mourmy,Control 4,502.966,0,0,0,0,267.226,0.00%,53.13%,leaf looks fully discolored unsure if actually infected marked as unattributed,,
+1217 Anacex,Mourmy,Control 5,315.261,8.37,0,0,8.37,0,2.65%,2.65%,,,
+1217 Anacex,Ormoma,1,5753.951,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Ormoma,2,10173.427,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Ormoma,3,8638.764,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Ormoma,4,7134.813,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Ormoma,5,5010.458,0,0,0,0,0,0.00%,0.00%,double check can't tell if infected,,
+1217 Anacex,Ormoma,Control 1,4847.851,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Ormoma,Control 2,5390.918,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Ormoma,Control 3,8572.108,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Ormoma,Control 4,5866.772,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Ormoma,Control 5,6026.518,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Randar,1,2362.734,2362.734,0,0,2362.734,0,100.00%,100.00%,fully infected leaves ,,
+1217 Anacex,Randar,2,2314.171,2314.171,0,0,2314.171,0,100.00%,100.00%,fully infected leaves ,,
+1217 Anacex,Randar,3,3733.332,3634.77,0,0,3634.77,0,97.36%,97.36%,fully infected leaves ,,
+1217 Anacex,Randar,4,2643.523,2643.523,0,0,2643.523,0,100.00%,100.00%,fully infected leaves ,,
+1217 Anacex,Randar,5,2135.19,2130.697,0,0,2130.697,0,99.79%,99.79%,fully infected leaves ,,
+1217 Anacex,Randar,Control 1,1324.174,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Randar,Control 2,1716.653,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Randar,Control 3,2098.169,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Randar,Control 4,2543.122,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Randar,Control 5,1602.152,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Tri2pa,1,3782.431,71.457,281.792,85.826,439.075,0,11.61%,11.61%,whole leaf is wrinkled in addition to lesions,,
+1217 Anacex,Tri2pa,2,3315.802,62.633,35.718,57.959,156.31,0,4.71%,4.71%,lesions just yellow color around puncture,,
+1217 Anacex,Tri2pa,3,3038.598,83.572,0,0,83.572,0,2.75%,2.75%,whole leaf is wrinkled in addition to lesions,,
+1217 Anacex,Tri2pa,4,4673.925,0,0,0,0,,0.00%,0.00%,this leaf is discolored -- infection?,,
+1217 Anacex,Tri2pa,5,3790.295,506.626,0,0,506.626,,13.37%,13.37%,,,
+1217 Anacex,Tri2pa,Control 1,3179.246,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Tri2pa,Control 2,3511.574,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Tri2pa,Control 3,3306.716,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Tri2pa,Control 4,2505.245,0,0,0,0,0,0.00%,0.00%,,,yes
+1217 Anacex,Tri2pa,Control 5,1797.879,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Aspicr,1,3441.619,2982.122,0,0,2982.122,0,86.65%,86.65%,left as attributed mostly black,,
+1330 Laciag,Aspicr,2,4025.017,0,0,0,0,4025.017,0.00%,100.00%,all black (some part fuzzy),,
+1330 Laciag,Aspicr,3,3028.268,2412.539,0,0,2412.539,0,79.67%,79.67%,less dark then 1 and 2 still looks darker than normal leaf color,,
+1330 Laciag,Aspicr,4,4464.615,164.296,323.789,655.057,1143.142,0,25.60%,25.60%,,,
+1330 Laciag,Aspicr,5,3667.107,0,0,0,0,100,0.00%,2.73%,,,
+1330 Laciag,Aspicr,Control 1,2631.427,0,0,0,0,100,0.00%,3.80%,,,
+1330 Laciag,Aspicr,Control 2,3162.921,2818.981,0,0,2818.981,0,89.13%,89.13%,,,
+1330 Laciag,Aspicr,Control 3,4913.998,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Aspicr,Control 4,2967.584,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Aspicr,Control 5,2166.618,1051.598,0,0,1051.598,112.244,48.54%,53.72%,,,
+1330 Laciag,Castel,1,3317.801,287.138,0,0,287.138,495.05,8.65%,23.58%,,,
+1330 Laciag,Castel,2,2966.227,0,0,0,0,2966.227,0.00%,100.00%,,,
+1330 Laciag,Castel,3,3415.299,0,0,0,0,22.456,0.00%,0.66%,whole leaf yellowish,,
+1330 Laciag,Castel,4,6528.093,0,0,0,0,176.826,0.00%,2.71%,,,
+1330 Laciag,Castel,5,4200.684,2403.019,0,0,2403.019,0,57.21%,57.21%,,,
+1330 Laciag,Castel,Control 1,5984.554,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Castel,Control 2,7499.105,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Castel,Control 3,4253.324,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Castel,Control 4,3621.423,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Castel,Control 5,3173.775,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Dendar,1,5133.293,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Dendar,2,6108.149,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Dendar,3,8669.353,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Dendar,4,3608.61,29.535,36.81,0,66.345,0,1.84%,1.84%,,,
+1330 Laciag,Dendar,5,5271.567,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Dendar,Control 1,4626.299,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Dendar,Control 2,3892.668,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Dendar,Control 3,4298.639,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Dendar,Control 4,3133.449,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Dendar,Control 5,5778.914,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Mourmy,1,447.902,0,0,0,0,0,0.00%,0.00%,Slight dried out,,yes
+1330 Laciag,Mourmy,2,160.562,0,0,0,0,0,0.00%,0.00%,dried out and curled,,yes
+1330 Laciag,Mourmy,3,577.723,16.968,0,0,16.968,0,2.94%,2.94%,Slight dried out,,
+1330 Laciag,Mourmy,4,495.412,0,0,0,0,0,0.00%,0.00%,Slight dried out,,yes
+1330 Laciag,Mourmy,5,314.447,6.933,0,0,6.933,0,2.20%,2.20%,Slight dried out,,
+1330 Laciag,Mourmy,Control 1,448.763,0,0,0,0,0,0.00%,0.00%,Slight dried out,,yes
+1330 Laciag,Mourmy,Control 2,243.592,0,0,0,0,0,0.00%,0.00%,Slight dried out,,yes
+1330 Laciag,Mourmy,Control 3,402.857,3.548,0,0,3.548,0,0.88%,0.88%,Slight dried out,,
+1330 Laciag,Mourmy,Control 4,223.872,0,0,0,0,0,0.00%,0.00%,Slight dried out,,yes
+1330 Laciag,Mourmy,Control 5,286.395,5.549,2.689,3.783,12.021,0.00%,4.20%,4.20%,Slight dried out,,
+1330 Laciag,Ormoma,1,2987.23,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Ormoma,2,2996.166,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Ormoma,3,4898.969,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Ormoma,4,7277.135,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Ormoma,5,6423.147,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Ormoma,Control 1,5007.916,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Ormoma,Control 2,9642.733,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Ormoma,Control 3,7883.253,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Ormoma,Control 4,4109.335,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Ormoma,Control 5,6395.314,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Randar,1,1580.808,42.582,134.257,61.356,238.195,0,15.07%,15.07%,,,
+1330 Laciag,Randar,2,1292.947,33.305,22.5,0,55.805,0,4.32%,4.32%,,,
+1330 Laciag,Randar,3,1384.47,1384.47,0,0,1384.47,0,100.00%,100.00%,,,
+1330 Laciag,Randar,4,1080.926,1032.673,0,0,1032.673,0,95.54%,95.54%,,,
+1330 Laciag,Randar,5,980.955,13.691,8.674,0,22.365,0,2.28%,2.28%,,,
+1330 Laciag,Randar,Control 1,834.92,767.878,0,0,767.878,0,91.97%,91.97%,,,
+1330 Laciag,Randar,Control 2,1432.955,12.136,0,0,12.136,0,0.85%,0.85%,,,
+1330 Laciag,Randar,Control 3,1006.14,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Randar,Control 4,1126.736,0,0,0,0,0,0.00%,0.00%,,,yes
+1330 Laciag,Randar,Control 5,1123.917,1026.137,0,0,1026.137,0,91.30%,91.30%,,,
+1330 Laciag,Soroaf,1,10083.723,0,0,0,0,37.743,0.00%,0.37%,,,
+1330 Laciag,Soroaf,2,4953.469,0,0,0,0,0,0.00%,0.00%,Pretty sure 0 but double check,,yes
+1330 Laciag,Soroaf,3,6573.712,2132.783,0,0,2132.783,0,32.44%,32.44%,partially dried,,
+1330 Laciag,Soroaf,4,3466.326,384.325,241.292,0,625.617,23.912,18.05%,18.74%,,,
+1330 Laciag,Soroaf,5,8356.33,0,0,0,0,0,0.00%,0.00%,partially dried and spotted,,
+1330 Laciag,Soroaf,Control 1,6729.521,0,0,0,0,0,0.00%,0.00%,partially dried and spotted,,
+1330 Laciag,Soroaf,Control 2,6143.654,0,0,0,0,0,0.00%,0.00%,,,
+1330 Laciag,Soroaf,Control 3,2759.353,1140.141,0,0,1140.141,0,41.32%,41.32%,partially dried,,
+1330 Laciag,Soroaf,Control 4,7189.928,0,0,0,0,0,0.00%,0.00%,partially dried,,yes
+1330 Laciag,Soroaf,Control 5,5623.504,1375.954,0,0,1375.954,0,24.47%,24.47%,looks relatively dry,,
+3216 Anacex,Aspicr,1,3372.428,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Aspicr,2,2782.857,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Aspicr,3,2227.042,77.036,435.224,0,512.26,0,23.00%,23.00%,,,
+3216 Anacex,Aspicr,4,3011.74,97.198,0,0,97.198,0,3.23%,3.23%,believe lesion 2 and 3 are just punctures,,
+3216 Anacex,Aspicr,5,1219.012,902.314,0,0,902.314,0,74.02%,74.02%,,,
+3216 Anacex,Aspicr,Control 1,1738.42,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Aspicr,Control 2,1172.911,581.496,0,0,581.496,0,49.58%,49.58%,believe this to be infected maybe double chec,,
+3216 Anacex,Aspicr,Control 3,1638.274,25.766,0,0,25.766,0,1.57%,1.57%,,,
+3216 Anacex,Aspicr,Control 4,1482.938,809.969,0,0,809.969,0,54.62%,54.62%,,,
+3216 Anacex,Aspicr,Control 5,2541.132,29.195,0,0,29.195,0,1.15%,1.15%,leaf is a little streaky but doesn't seem infected,,
+3216 Anacex,Castel,1,4369.908,0,0,0,0,792.872,0.00%,18.14%,,,
+3216 Anacex,Castel,2,2203.744,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Castel,3,1018.642,0,0,0,0,1018.642,0.00%,100.00%,,,
+3216 Anacex,Castel,4,446.082,0,0,0,0,446.082,0.00%,100.00%,,,
+3216 Anacex,Castel,5,2539.299,0,0,0,0,2539.299,0.00%,100.00%,,,
+3216 Anacex,Castel,Control 1,2193.57,0,0,0,0,238.181,0.00%,10.86%,whole leaf is a little yellowed,,
+3216 Anacex,Castel,Control 2,3039.631,0,0,0,0,1169.707,0.00%,38.48%,,,
+3216 Anacex,Castel,Control 3,2955.621,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Castel,Control 4,1429.162,30.221,0,0,30.221,37.976,2.11%,4.77%,whole leaf looks a little yellowed,,
+3216 Anacex,Castel,Control 5,1428.919,0,0,0,0,0,0.00%,0.00%,slightly curled,,
+3216 Anacex,Dendar,1,4352.21,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Dendar,2,3516.863,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Dendar,3,5083.392,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Dendar,4,5271.75,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Dendar,5,3889.566,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Dendar,Control 1,4784.884,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Dendar,Control 2,3517.409,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Dendar,Control 3,4698.914,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Dendar,Control 4,4096.828,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Dendar,Control 5,5407.511,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Mourmy,1,178.983,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Mourmy,2,260.727,8.524,0,0,8.524,6.886,3.27%,5.91%,,,
+3216 Anacex,Mourmy,3,242.235,42.548,0,0,42.548,0,17.56%,17.56%,looks slightly dried,,
+3216 Anacex,Mourmy,4,291.438,14.767,0,0,14.767,0,5.07%,5.07%,,,
+3216 Anacex,Mourmy,5,170.575,110.872,0,0,110.872,0,65.00%,65.00%,dried,,
+3216 Anacex,Mourmy,Control 1,232.603,0,0,0,0,0,0.00%,0.00%,dried and brown,,yes
+3216 Anacex,Mourmy,Control 2,99.734,0,0,0,0,0,0.00%,0.00%,curled and dried,,yes
+3216 Anacex,Mourmy,Control 3,182.704,0,0,0,0,0,0.00%,0.00%,dried and brown,,yes
+3216 Anacex,Mourmy,Control 4,85.039,0,0,0,0,0,0.00%,0.00%,curled and dried,,yes
+3216 Anacex,Mourmy,Control 5,118.084,0,0,0,0,118.084,0.00%,100.00%,,,
+3216 Anacex,Ormoma,1,3778.499,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Ormoma,2,4678.919,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Ormoma,3,3077.251,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Ormoma,4,2540.49,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Ormoma,5,1512.767,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Ormoma,Control 1,5640.427,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Ormoma,Control 2,4558.858,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Ormoma,Control 3,4084.467,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Ormoma,Control 4,3485.356,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Ormoma,Control 5,3423.558,0,0,0,0,0,0.00%,0.00%,tips of ormama control ones slightly dried out,,yes
+3216 Anacex,Randar,1,818.241,0,0,0,0,818.241,0.00%,100.00%,dried out ,,
+3216 Anacex,Randar,2,668.176,0,0,0,0,768.176,0.00%,114.97%,,,
+3216 Anacex,Randar,3,840.513,827.639,0,0,827.639,0,98.47%,98.47%,,,
+3216 Anacex,Randar,4,745.445,677.622,0,0,677.622,0,90.90%,90.90%,,,
+3216 Anacex,Randar,5,610.595,476.579,0,0,476.579,0,78.05%,78.05%,,,
+3216 Anacex,Randar,Control 1,1052.486,909.598,0,0,909.598,0,86.42%,86.42%,,,
+3216 Anacex,Randar,Control 2,392.363,302.499,0,0,302.499,0,77.10%,77.10%,,,
+3216 Anacex,Randar,Control 3,527.139,472.893,0,0,472.893,0,89.71%,89.71%,,,
+3216 Anacex,Randar,Control 4,790.469,0,0,0,0,790.469,0.00%,100.00%,,,
+3216 Anacex,Randar,Control 5,791.08,683.724,0,0,683.724,0,86.43%,86.43%,,,
+3216 Anacex,Soroaf,1,697.579,0,0,0,0,9.88,0.00%,1.42%,,,
+3216 Anacex,Soroaf,2,1496.53,0,0,0,0,1496.53,0.00%,100.00%,spotted and dried ,,
+3216 Anacex,Soroaf,3,3167.252,0,0,0,0,0,0.00%,0.00%,partially dry,,yes
+3216 Anacex,Soroaf,4,3050.06,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Soroaf,5,2492.59,0,0,0,0,0,0.00%,0.00%,very dry,,yes
+3216 Anacex,Soroaf,Control 1,2152.035,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Soroaf,Control 2,3267.115,0,0,0,0,0,0.00%,0.00%,,,yes
+3216 Anacex,Soroaf,Control 3,2359.748,0,0,0,0,0,0.00%,0.00%,spotted,,yes
+3216 Anacex,Soroaf,Control 4,627.579,10.24,13.868,0,24.108,0,3.84%,3.84%,,,
+3216 Anacex,Soroaf,Control 5,2349.319,0,0,0,0,2349.419,0.00%,100.00%,spotted,,
+5211 Myrcga,Aspicr,1,1935.429,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Aspicr,2,3308.625,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Aspicr,3,1693.907,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Aspicr,4,1692.52,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Aspicr,5,2796.078,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Aspicr,Control 1,2003.799,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Aspicr,Control 2,2241.678,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Aspicr,Control 3,1936.994,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Aspicr,Control 4,2665.242,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Aspicr,Control 5,1780.643,0,0,0,0,0,0.00%,0.00%,believe no infection double check,,yes
+5211 Myrcga,Castel,1,4050.15,0,0,0,0,234.466,0.00%,5.79%,,,
+5211 Myrcga,Castel,2,3291.197,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Castel,3,3682.713,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Castel,4,2305.909,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Castel,5,2503.762,175.966,0,0,175.966,0,7.03%,7.03%,,,
+5211 Myrcga,Castel,Control 1,2467.404,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Castel,Control 2,1426.859,0,0,0,0,11.288,0.00%,0.79%,,,
+5211 Myrcga,Castel,Control 3,1214.753,0,0,0,0,1214.753,0.00%,100.00%,leaf is green but fuzzy all around,,
+5211 Myrcga,Castel,Control 4,2894.4,0,0,0,0,0,0.00%,0.00%,leaf is covered in spots,,
+5211 Myrcga,Castel,Control 5,2523.535,0,0,0,0,20.986,0.00%,0.83%,,,
+5211 Myrcga,Dendar,1,3611.537,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Dendar,2,3005.295,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Dendar,3,2196.606,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Dendar,4,3293.865,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Dendar,5,4364.587,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Dendar,Control 1,2240.875,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Dendar,Control 2,1770.706,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Dendar,Control 3,2772.118,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Dendar,Control 4,3246.735,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Dendar,Control 5,2779.287,193.997,0,0,193.997,0,6.98%,6.98%,,,
+5211 Myrcga,Mourmy,1,296.887,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Mourmy,2,134.543,0,0,0,0,0,0.00%,0.00%,think theres just punctures,,yes
+5211 Myrcga,Mourmy,3,182.551,0,0,0,0,0,0.00%,0.00%,think theres just punctures,,yes
+5211 Myrcga,Mourmy,4,134.882,0,0,0,0,0,0.00%,0.00%,think theres just punctures,,yes
+5211 Myrcga,Mourmy,5,139.657,4.809,0,0,4.809,0,3.44%,3.44%,,,
+5211 Myrcga,Mourmy,Control 1,389.614,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Mourmy,Control 2,142.63,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Mourmy,Control 3,145.173,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Mourmy,Control 4,147.985,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Mourmy,Control 5,146.05,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Ormoma,1,1744.556,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Ormoma,2,2112.883,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Ormoma,3,3033.034,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Ormoma,4,3924.255,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Ormoma,5,3163.506,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Ormoma,Control 1,1611.765,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Ormoma,Control 2,3679.025,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Ormoma,Control 3,1794.718,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Ormoma,Control 4,2354.722,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Ormoma,Control 5,1784.787,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Randar,1,1617.372,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Randar,2,1220.757,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Randar,3,1557.762,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Randar,4,1132.145,0,0,0,0,6.383,0.00%,0.56%,,,
+5211 Myrcga,Randar,5,948.948,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Randar,Control 1,1257.693,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Randar,Control 2,740.186,10.784,0,0,10.784,0,1.46%,1.46%,,,
+5211 Myrcga,Randar,Control 3,1245.518,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Randar,Control 4,1460.751,12.857,9.1,0,21.957,13.134,1.50%,2.40%,,,
+5211 Myrcga,Randar,Control 5,1056.186,0,0,0,0,0,0.00%,0.00%,,,yes
+5211 Myrcga,Tri2pa,1,1742.665,0,0,0,0,12.048,0.00%,0.69%,unattributed is dried out tip,,
+5211 Myrcga,Tri2pa,2,1279.424,25.698,58.926,24.281,108.905,0,8.51%,8.51%,,,
+5211 Myrcga,Tri2pa,3,942.491,15.401,0,0,15.401,0,1.63%,1.63%,,,
+5211 Myrcga,Tri2pa,4,1136.602,0,0,0,0,12.953,0.00%,1.14%,,,
+5211 Myrcga,Tri2pa,5,1088.448,0,0,0,0,33.568,0.00%,3.08%,,,
+5211 Myrcga,Tri2pa,Control 1,1287.859,617.826,19.848,0,637.674,207.047,49.51%,65.59%,,,
+5211 Myrcga,Tri2pa,Control 2,1526.154,119.457,9.304,355.986,484.747,0,31.76%,31.76%,,,
+5211 Myrcga,Tri2pa,Control 3,840.16,0,0,0,0,0,0.00%,0.00%,,,
+5211 Myrcga,Tri2pa,Control 4,802.35,133.108,5.247,8.096,146.451,0,18.25%,18.25%,,,
+5211 Myrcga,Tri2pa,Control 5,671.453,172.255,67.918,0,240.173,0,35.77%,35.77%,,,
+5214 Calolo,Aspicr,1,8886.426,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Aspicr,2,4549.241,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Aspicr,3,4950.236,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Aspicr,4,10038.514,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Aspicr,5,9175.697,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Aspicr,Control 1,7207.644,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Aspicr,Control 2,5988.986,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Aspicr,Control 3,6663.589,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Aspicr,Control 4,4825.805,4054.327,0,0,4054.327,0,84.01%,84.01%,,,
+5214 Calolo,Aspicr,Control 5,3266.939,0,0,0,0,124.902,0.00%,3.82%,,,
+5214 Calolo,Castel,1,1551.294,0,0,0,0,1551.294,0.00%,100.00%,,,
+5214 Calolo,Castel,2,960.823,0,0,0,0,960.823,0.00%,100.00%,,,
+5214 Calolo,Castel,3,3497.474,0,0,0,0,3497.474,0.00%,100.00%,,,
+5214 Calolo,Castel,4,3175.589,0,0,0,0,3175.589,0.00%,100.00%,,,
+5214 Calolo,Castel,5,10558.479,0,0,0,0,10558.479,0.00%,100.00%,,,
+5214 Calolo,Castel,Control 1,1169.656,0,0,0,0,1169.656,0.00%,100.00%,,,
+5214 Calolo,Castel,Control 2,1949.878,0,0,0,0,1949.878,0.00%,100.00%,,,
+5214 Calolo,Castel,Control 3,1833.358,1706.379,0,0,1706.379,0,93.07%,93.07%,,,
+5214 Calolo,Castel,Control 4,4587.526,157.849,0,0,157.849,0,3.44%,3.44%,slightly yellow,,
+5214 Calolo,Castel,Control 5,8624.92,0,0,0,0,0,0.00%,0.00%,,,
+5214 Calolo,Dendar,1,8832.815,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Dendar,2,8894.257,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Dendar,3,7178.456,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Dendar,4,7659.167,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Dendar,5,9538.252,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Dendar,Control 1,7670.823,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Dendar,Control 2,9199.099,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Dendar,Control 3,10399.439,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Dendar,Control 4,8987.715,0,0,0,0,3215.995,0.00%,35.78%,,,
+5214 Calolo,Dendar,Control 5,11518.031,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Mourmy,1,536.556,25.234,0,0,25.234,0,4.70%,4.70%,partially dried,,yes
+5214 Calolo,Mourmy,2,125.459,0,0,0,0,0,0.00%,0.00%,very dried,,yes
+5214 Calolo,Mourmy,3,145.29,0,0,0,0,0,0.00%,0.00%,partially dried,,yes
+5214 Calolo,Mourmy,4,176.917,0,0,0,0,0,0.00%,0.00%,partially dried,,yes
+5214 Calolo,Mourmy,5,116.74,0,0,0,0,0,0.00%,0.00%,partially dried,,yes
+5214 Calolo,Mourmy,Control 1,125.659,0,0,0,0,0,0.00%,0.00%,partially dried,,yes
+5214 Calolo,Mourmy,Control 2,98.629,0,0,0,0,0,0.00%,0.00%,partially dried,,yes
+5214 Calolo,Mourmy,Control 3,116.927,0,0,0,0,0,0.00%,0.00%,partially dried,,yes
+5214 Calolo,Mourmy,Control 4,92.456,0,0,0,0,0,0.00%,0.00%,partially dried,,yes
+5214 Calolo,Mourmy,Control 5,82.941,0,0,0,0,82.941,0.00%,100.00%,dark and dried out,,
+5214 Calolo,Ormoma,1,5507.318,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Ormoma,2,6256.723,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Ormoma,3,7613.902,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Ormoma,4,3179.495,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Ormoma,5,4087.776,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Ormoma,Control 1,2752.789,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Ormoma,Control 2,3614.977,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Ormoma,Control 3,5275.271,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Ormoma,Control 4,3359.04,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Ormoma,Control 5,11023.457,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Randar,1,793.305,11.206,6.742,0,17.948,0,2.26%,2.26%,,,
+5214 Calolo,Randar,2,619.271,609.997,0,0,609.997,0,98.50%,98.50%,,,
+5214 Calolo,Randar,3,940.97,0,0,0,0,50.955,0.00%,5.42%,,,
+5214 Calolo,Randar,4,902.244,11.482,0,0,11.482,0,1.27%,1.27%,,,
+5214 Calolo,Randar,5,776.043,74.621,89.679,84.124,248.424,0,32.01%,32.01%,,,
+5214 Calolo,Randar,Control 1,758.974,0,0,0,0,758.974,0.00%,100.00%,fully wrinkled maybe N/A,,
+5214 Calolo,Randar,Control 2,953.317,32.63,11.521,0,44.151,0,4.63%,4.63%,,,
+5214 Calolo,Randar,Control 3,476.504,32.186,19.498,8.179,59.863,0,12.56%,12.56%,,,
+5214 Calolo,Randar,Control 4,578.671,432.806,0,0,432.806,0,74.79%,74.79%,,,
+5214 Calolo,Randar,Control 5,568.211,9.933,27.757,10.813,48.503,0,8.54%,8.54%,,,
+5214 Calolo,Soroaf,1,6476.296,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Soroaf,2,4652.536,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Soroaf,3,4374.182,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Soroaf,4,4121.943,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Soroaf,5,2076.026,0,0,0,0,0,0.00%,0.00%,spotted,,yes
+5214 Calolo,Soroaf,Control 1,2121.039,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Soroaf,Control 2,3968.552,0,0,0,0,0,0.00%,0.00%,,,yes
+5214 Calolo,Soroaf,Control 3,1507.615,492.453,0,0,492.453,0,32.66%,32.66%,whole leaf is partially dried out,,
+5214 Calolo,Soroaf,Control 4,3398.517,0,0,0,0,0,0.00%,0.00%,,,
+5214 Calolo,Soroaf,Control 5,994.586,0,0,0,0,0,0.00%,0.00%,very wrinkled,,
+5323 Laciag,Aspicr,1,2111.047,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Aspicr,2,3900.065,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Aspicr,3,2448.334,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Aspicr,4,3090.581,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Aspicr,5,2321.828,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Aspicr,Control 1,2551.167,2221.153,0,0,2221.153,0,87.06%,87.06%,pretty sure this is infected,,
+5323 Laciag,Aspicr,Control 2,1837.338,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Aspicr,Control 3,4083.751,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Aspicr,Control 4,4064.401,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Aspicr,Control 5,3500.829,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Castel,1,801.306,0,0,0,0,0,0.00%,0.00%,very dried out,,yes
+5323 Laciag,Castel,2,1076.412,0,0,0,0,1076.412,0.00%,100.00%,,,
+5323 Laciag,Castel,3,3165.85,0,0,0,0,0,0.00%,0.00%,very dried out,,yes
+5323 Laciag,Castel,4,8852.183,3092.425,0,0,3092.425,0,34.93%,34.93%,,,
+5323 Laciag,Castel,5,2584.428,0,0,0,0,2584.428,0.00%,100.00%,,,
+5323 Laciag,Castel,Control 1,816.202,0,0,0,0,127.195,0.00%,15.58%,very yellow,,
+5323 Laciag,Castel,Control 2,2632.675,0,0,0,0,2632.675,0.00%,100.00%,,,
+5323 Laciag,Castel,Control 3,3466.605,0,0,0,0,3266.605,0.00%,94.23%,,,
+5323 Laciag,Castel,Control 4,8526.732,0,0,0,0,3266.605,0.00%,38.31%,looks very yellow,,
+5323 Laciag,Castel,Control 5,8825.874,0,0,0,0,0,0.00%,0.00%,slightly dried out,,
+5323 Laciag,Dendar,1,2156.43,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Dendar,2,2142.952,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Dendar,3,3251.249,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Dendar,4,4447.257,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Dendar,5,1709.386,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Dendar,Control 1,2992.465,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Dendar,Control 2,3784.262,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Dendar,Control 3,2683.26,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Dendar,Control 4,1872.121,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Dendar,Control 5,2644.593,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Mourmy,1,136.965,0,0,0,0,0,0.00%,0.00%,partially dried,,yes
+5323 Laciag,Mourmy,2,132.577,24.106,0,0,24.106,0,18.18%,18.18%,partially dried,,
+5323 Laciag,Mourmy,3,157.921,0,0,0,0,0,0.00%,0.00%,partially dried,,yes
+5323 Laciag,Mourmy,4,128.954,0,0,0,0,0,0.00%,0.00%,partially dried,,yes
+5323 Laciag,Mourmy,5,130.504,0,0,0,0,0,0.00%,0.00%,partially dried,,yes
+5323 Laciag,Mourmy,Control 1,131.713,0,0,0,0,0,0.00%,0.00%,fully dried out,,yes
+5323 Laciag,Mourmy,Control 2,101.381,0,0,0,0,0,0.00%,0.00%,fully dried out,,yes
+5323 Laciag,Mourmy,Control 3,84.877,0,0,0,0,0,0.00%,0.00%,fully dried out,,yes
+5323 Laciag,Mourmy,Control 4,134.435,0,0,0,0,0,0.00%,0.00%,fully dried out,,yes
+5323 Laciag,Mourmy,Control 5,97.579,0,0,0,0,97.579,0.00%,100.00%,fully dried out,,
+5323 Laciag,Ormoma,1,4554.177,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Ormoma,2,4005.524,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Ormoma,3,4552.659,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Ormoma,4,1908.712,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Ormoma,5,1286.329,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Ormoma,Control 1,2580.157,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Ormoma,Control 2,1768.565,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Ormoma,Control 3,1097.361,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Ormoma,Control 4,6580.433,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Ormoma,Control 5,4764.819,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Randar,1,2767.795,0,0,0,0,0,0.00%,0.00%,,,
+5323 Laciag,Randar,2,618.9,0,0,0,0,618.9,0.00%,100.00%,"very dry, slightly wrinkled",,
+5323 Laciag,Randar,3,1300.86,966.727,0,0,966.727,0,74.31%,74.31%,,,
+5323 Laciag,Randar,4,923.188,898.651,0,0,898.651,0,97.34%,97.34%,,,
+5323 Laciag,Randar,5,847.122,15.328,5.431,0,20.759,0,2.45%,2.45%,,,
+5323 Laciag,Randar,Control 1,751.265,0,0,0,0,0,0.00%,0.00%,,,yes
+5323 Laciag,Randar,Control 2,803.997,160.709,0,0,160.709,0,19.99%,19.99%,,,
+5323 Laciag,Randar,Control 3,692.787,639.135,0,0,639.135,0,92.26%,92.26%,,,
+5323 Laciag,Randar,Control 4,790.25,482.085,0,0,482.085,0,61.00%,61.00%,dried out,,
+5323 Laciag,Randar,Control 5,1115.97,0,0,0,0,115.97,0.00%,10.39%,dark and dried out,,
+5323 Laciag,Soroaf,1,1554.274,0,0,0,0,0,0.00%,0.00%,very dry and spotted,,yes
+5323 Laciag,Soroaf,2,2712.087,0,0,0,0,2712.087,0.00%,100.00%,very dry and spotted and darker,,
+5323 Laciag,Soroaf,3,1996.635,0,0,0,0,1996.635,0.00%,100.00%,very dry and spotted and darker,,
+5323 Laciag,Soroaf,4,1525.189,0,0,0,0,1525.189,0.00%,100.00%,very dry and spotted and darker,,
+5323 Laciag,Soroaf,5,4029.084,0,0,0,0,4029.084,0.00%,100.00%,very dry and spotted and darker,,
+5323 Laciag,Soroaf,Control 1,3201.4,0,0,0,0,0,0.00%,0.00%,leaf slightly dry and spotted,,yes
+5323 Laciag,Soroaf,Control 2,1627.8,0,0,0,0,0,0.00%,0.00%,leaf slightly dry and spotted,,yes
+5323 Laciag,Soroaf,Control 3,3821.369,0,0,0,0,0,0.00%,0.00%,slightly dry,,yes
+5323 Laciag,Soroaf,Control 4,559.687,0,0,0,0,0,0.00%,0.00%,leaf extremely dried out and curled,,yes
+5323 Laciag,Soroaf,Control 5,2952.731,0,0,0,0,0,0.00%,0.00%,leaf is dried out and a little spotted,,yes
+5324 Propta,Aspicr,1,10467.146,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Aspicr,2,3928.48,471.488,602.404,0,1073.892,0,27.34%,27.34%,,,
+5324 Propta,Aspicr,3,5158.643,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Aspicr,4,6818.132,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Aspicr,5,4798.132,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Aspicr,Control 1,3953.336,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Aspicr,Control 2,4791.027,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Aspicr,Control 3,5128.569,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Aspicr,Control 4,7726.648,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Aspicr,Control 5,8032.094,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Castel,1,9249.397,180.91,0,0,180.91,909.805,1.96%,11.79%,,,
+5324 Propta,Castel,2,15676.039,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Castel,3,8815.441,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Castel,4,7065.774,0,0,0,0,7065.774,0.00%,100.00%,yellowish and spotty all over,,
+5324 Propta,Castel,5,6341.285,0,0,0,0,0,0.00%,0.00%,tip dried ,,yes
+5324 Propta,Castel,Control 1,13781.714,0,0,0,0,681.526,0.00%,4.95%,,,
+5324 Propta,Castel,Control 2,19332.627,0,0,0,0,2796.086,0.00%,14.46%,,,
+5324 Propta,Castel,Control 3,14736.366,0,0,0,0,1943.621,0.00%,13.19%,,,
+5324 Propta,Castel,Control 4,8431.074,0,0,0,0,457.855,0.00%,5.43%,,,
+5324 Propta,Castel,Control 5,11241.539,0,0,0,0,393.441,0.00%,3.50%,,,
+5324 Propta,Dendar,1,10213.02,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Dendar,2,15181.884,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Dendar,3,9712.606,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Dendar,4,14367.788,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Dendar,5,14951.137,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Dendar,Control 1,16814.501,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Dendar,Control 2,6357.896,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Dendar,Control 3,12409.215,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Dendar,Control 4,19788.866,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Dendar,Control 5,14108.992,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Mourmy,1,164.882,0,0,0,0,0,0.00%,0.00%,,,
+5324 Propta,Mourmy,2,265.757,10.151,10.61,8.787,29.548,0,11.12%,11.12%,,,
+5324 Propta,Mourmy,3,254.056,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Mourmy,4,256.605,247.894,0,0,247.894,0,96.61%,96.61%,,,
+5324 Propta,Mourmy,5,261.496,44.984,0,0,44.984,0,17.20%,17.20%,,,
+5324 Propta,Mourmy,Control 1,169.075,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Mourmy,Control 2,179.265,10.165,0,0,10.165,0,5.67%,5.67%,,,
+5324 Propta,Mourmy,Control 3,174.381,164.546,0,0,164.546,0,94.36%,94.36%,,,
+5324 Propta,Mourmy,Control 4,136.156,51.04,0,0,51.04,0,37.49%,37.49%,,,
+5324 Propta,Mourmy,Control 5,238.894,4.561,6.812,1.713,13.086,0,5.48%,5.48%,,,
+5324 Propta,Ormoma,1,6209.464,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Ormoma,2,7400.845,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Ormoma,3,4800.406,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Ormoma,4,4353.787,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Ormoma,5,5037.096,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Ormoma,Control 1,6224.6,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Ormoma,Control 2,6959.126,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Ormoma,Control 3,4540.717,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Ormoma,Control 4,7759.043,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Ormoma,Control 5,9444.333,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Randar,1,1316.685,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Randar,2,867.923,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Randar,3,1585.34,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Randar,4,1039.445,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Randar,5,918.084,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Randar,Control 1,1441.61,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Randar,Control 2,1406.882,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Randar,Control 3,920.485,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Randar,Control 4,1580.273,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Randar,Control 5,1467.179,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Tri2pa,1,1130.777,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Tri2pa,2,1904.036,0,0,0,0,0,0.00%,0.00%,slightly spotted,,yes
+5324 Propta,Tri2pa,3,2079.073,0,0,0,0,0,0.00%,0.00%,slightly spotted,,yes
+5324 Propta,Tri2pa,4,2105.506,0,0,0,0,0,0.00%,0.00%,slightly dried out tip,,yes
+5324 Propta,Tri2pa,5,1910.548,0,0,0,0,0,0.00%,0.00%,tip slightly dried out,,yes
+5324 Propta,Tri2pa,Control 1,1878.851,0,0,0,0,0,0.00%,0.00%,,,yes
+5324 Propta,Tri2pa,Control 2,865.429,0,0,0,0,0,0.00%,0.00%,slightly yellow leaf,,yes
+5324 Propta,Tri2pa,Control 3,2363.374,0,0,0,0,0,0.00%,0.00%,slightly spotted,,yes
+5324 Propta,Tri2pa,Control 4,1449.961,0,0,0,0,0,0.00%,0.00%,slightly yellow leaf,,yes
+5324 Propta,Tri2pa,Control 5,1549.715,0,0,0,0,0,0.00%,0.00%,,,yes
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,

@@ -1,0 +1,40 @@
+---
+title: "Clean + prep data"
+author: "Abigail Bar"
+date: "2/9/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r packages}
+rm(list = ls ())
+
+library(tidyverse) #to clean data
+library(ggplot2) #plotting
+library(patchwork) #joins plots
+
+
+```
+
+```{r data}
+dat <- read.csv("data/DLA Data.csv")
+dat <- dat[c(1:630),] #getting rid of extra rows
+
+```
+
+```{r data manipulation}
+#converted data from characters to numeric values
+#created new columns for total lesion + percent infection
+dat$area <- as.numeric(dat$area)
+dat$lesion1 <- as.numeric(dat$lesion1)
+dat$lesion2 <- as.numeric(dat$lesion2)
+dat$lesion3 <- as.numeric(dat$lesion3)
+dat <- mutate(dat,tot.lesion=lesion1+lesion2+lesion3)
+
+dat <- mutate (dat, percent.infection=tot.lesion/area)
+```
+
