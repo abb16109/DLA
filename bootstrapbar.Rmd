@@ -148,7 +148,9 @@ ggsave("figures/meanMAP.jpeg", plot = meanplot,
 ```
 
 ```{r range}
-preddat2 <- expand.grid(rangeMAP = seq(200,1600, 200), pathogenorigin = scale(quantile(dat$pathogenorigin, probs = c(0.1,0.5,0.9))))
+preddat2 <- expand.grid(rangeMAP = seq(200,1600, 200),
+                        pathogenorigin = quantile(dat$pathogenorigin,
+                                                        probs = c(0.1,0.9)))
 
 preddat2$preds <- predict(rangeMAPmod, newdata = preddat2, re.form = ~0)
 #check your data on host origin. Does a ~min of 1800mm/yr + ~max of 3000mm/yr make sense?
@@ -170,10 +172,12 @@ clusterEvalQ(cl, library(lme4))
 # be identical here to the one above. However, "quantile" won't work within a function.
 # run quantile(dat$pathogenorigin,probs = 0.5) alone to get the absolute value
 # and plug it into the preddat below. It'll be something like 2311 or 2595.
-quantile(dat$pathogenorigin,probs = c(0.1,0.9))
+
+#quantile(dat$pathogenorigin,probs = c(0.1,0.9))
+
 pred.fun2 <- function(.) {
- preddat2 <- expand.grid(hostorigin = seq(1800,3000, 200), 
-  pathogenorigin = c(1874,2595,3203))
+ preddat2 <- expand.grid(rangeMAP = seq(200,1600, 200), 
+  pathogenorigin = c(1874,3203))
   predict(., newdata = preddat2, re.form = ~0)
 }
 
@@ -185,7 +189,7 @@ rangeMAP.boot <- bootMer(rangeMAPmod, nsim = 1000, FUN = pred.fun2,
 #create a folder called "bootoutput" or something to save the files...
 
 #save the output!
-save(meanMAP.boot, file = "bootoutput/meanMAP.boot")
+save(rangeMAP.boot, file = "bootoutput/rangeMAP.boot")
 
 #stop the clusters when you finish,
 #or else your computer will have permanently wonky memory allocation
@@ -200,9 +204,9 @@ stopCluster(cl = cl)
 #this is still useful to you, but with this bit you wouldn't need to run the boostrapping
 #every time. It's up to you if you ultimately prefer to have all the boostrapping
 #in a separate doc or combined. 
-load("bootoutput/meanMAP.boot") 
+load("bootoutput/rangeMAP.boot") 
 
-preddat2<- data.frame(preddat2, confint(meanMAP.boot))
+preddat2<- data.frame(preddat2, confint(rangeMAP.boot))
 
 #just guessing here on the numbers. The final 2 columns of preddat will be lwr and upr.
 #Make sure the numbers reflect the final 2 columns that you need to rename.
@@ -218,23 +222,26 @@ names(preddat2)[4:5] <- c("lwr", "upr")
 # theme_classic, and it should always be at the end. (you can pick another theme,
 # but I like this one for its simplicity).
 
+#Change Pathogen Origin so that it plots as a discrete variable
+preddat2$pathogenorigin <- factor(preddat2$pathogenorigin)
 
-
-
-ggsave("figures/meanMAP.jpeg", plot = meanplot,
-       height = 8, width = 12, units = "in") 
-
-
-rangeplot <- preddat2 %>% ggplot(aes(x=Var1, y=preds)) +
-  geom_ribbon(aes(min=lwr, max = upr), alpha = 0.3, line = pathogenorigin, color = pathogenorigin, fill = pathogenorigin) + 
-  geom_line(color= pathogenorigin, size = 1.2) + 
+rangeplot <- preddat2 %>% ggplot(aes(x=rangeMAP, y=preds, 
+                                     group = pathogenorigin,
+                                     fill = pathogenorigin)) +
+  geom_ribbon(aes(min=lwr, max = upr), alpha = 0.3) + 
+  geom_line(aes(col = pathogenorigin), size = 1.2) + 
   xlab("Avg Plant Species Location \n by Preciptation (mm)") +
   ylab("Percent Leaf Infection") +
   theme(axis.title = element_text(size = 16),
         axis.text = element_text(size=12)) +
   theme_classic()
 
+rangeplot #ok this looks close enough to what you'll want. There are still some
+#customizations that you'll want to do. Google is your friend here ("custom colors geom_ribbon r", etc)
+
 ```
+
+
 ```{r}
 
 preddat3 <- expand.grid((minMAP = seq(200,1600, 200)), pathogenorigin = scale(quantile(dat$pathogenorigin, probs = c(0.1,0.5, 0.9))))
