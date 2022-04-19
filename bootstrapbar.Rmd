@@ -28,8 +28,8 @@ library(stats) #for quantile extraction
 #load models
 
 meanMAP <- readRDS("modeloutput/avgplant.RDS") #insert the path to each RDS object into the parenthesis
-minMAP <- readRDS("modeloutput/minplant.RDS")
-rangeMAP1 <- readRDS("modeloutput/rangeplant.RDS")
+minMAPmod <- readRDS("modeloutput/minplant.RDS")
+rangeMAPmod <- readRDS("modeloutput/rangeplant.RDS")
 
 #load data
 dat <- read.csv("data/livedifference.csv")
@@ -148,17 +148,17 @@ ggsave("figures/meanMAP.jpeg", plot = meanplot,
 ```
 
 ```{r range}
-preddat1 <- expand.grid((rangeMAP = seq(200,1600, 200)), pathogenorigin = scale(quantile(dat$pathogenorigin, probs = c(0.1,0.9))))
-preddat2 <- expand.grid((rangeMAP = seq(200,1600, 200)), pathogenorigin = quantile(dat$pathogenorigin, probs = 0.9))
+preddat2 <- expand.grid((rangeMAP = seq(200,1600, 200)), pathogenorigin = scale(quantile(dat$pathogenorigin, probs = c(0.1,0.5,0.9))))
+#preddat2 <- expand.grid((rangeMAP = seq(200,1600, 200)), pathogenorigin = quantile(dat$pathogenorigin, probs = 0.9))
 
 #check your data on host origin. Does a ~min of 1800mm/yr + ~max of 3000mm/yr make sense?
 # next, make predictions from the mean estimates of the model using preddat values.
 # re.form = ~0 tells predict to ignore your random effects. Keep this.
 
-preddat1$preds <- predict(rangeMAP1, newdata = preddat1, re.form = ~0)
-preddat2$preds <- predict(rangeMAP1, newdata = preddat1, re.form = ~0)
+#preddat1$preds <- predict(rangeMAPmod, newdata = preddat1, re.form = ~0)
+#preddat2$preds <- predict(rangeMAPmod, newdata = preddat1, re.form = ~0)
 
-preddat3 <- rbind(preddat1,preddat2)
+#preddat3 <- rbind(preddat1,preddat2)
 ### Bootstrapping --------------------------------------------------------------
 # now it's time to bootstrap to get the CI's around the estimate. Because you've
 # used a linear model this will be pretty quick (maybe 30 seconds) a glmm would take
@@ -174,14 +174,14 @@ clusterEvalQ(cl, library(lme4))
 # run quantile(dat$pathogenorigin,probs = 0.5) alone to get the absolute value
 # and plug it into the preddat below. It'll be something like 2311 or 2595.
 quantile(dat$pathogenorigin,probs = c(0.1,0.9))
-pred.fun1 <- function(.) {
- preddat1 <- expand.grid(hostorigin = seq(1800,3000, 200), 
-  pathogenorigin = c(1874,3203))
-  predict(., newdata = preddat3, re.form = ~0)
+pred.fun2 <- function(.) {
+ preddat2 <- expand.grid(hostorigin = seq(1800,3000, 200), 
+  pathogenorigin = c(1874,2595,3203))
+  predict(., newdata = preddat2, re.form = ~0)
 }
 
 #make sure the names are correct here, but you should be able to just run this now.
-rangeMAP.boot <- bootMer(rangeMAP1, nsim = 1000, FUN = pred.fun1,
+rangeMAP.boot <- bootMer(rangeMAPmod, nsim = 1000, FUN = pred.fun2,
                      parallel="snow", ncpus = detectCores(), 
                      cl=cl)
 
@@ -205,12 +205,12 @@ stopCluster(cl = cl)
 #in a separate doc or combined. 
 load("bootoutput/meanMAP.boot") 
 
-preddat<- data.frame(preddat, confint(meanMAP.boot))
+preddat2<- data.frame(preddat2, confint(meanMAP.boot))
 
 #just guessing here on the numbers. The final 2 columns of preddat will be lwr and upr.
 #Make sure the numbers reflect the final 2 columns that you need to rename.
 
-names(preddat)[4:5] <- c("lwr", "upr")  
+names(preddat2)[4:5] <- c("lwr", "upr")  
 
 ### Plot it --------------------------------------------------------------------
 
@@ -228,7 +228,7 @@ ggsave("figures/meanMAP.jpeg", plot = meanplot,
        height = 8, width = 12, units = "in") 
 
 
-rangeplot <- preddat %>% ggplot(aes(x=Var1, y=preds)) +
+rangeplot <- preddat2 %>% ggplot(aes(x=Var1, y=preds)) +
   geom_ribbon(aes(min=lwr, max = upr), alpha = 0.3, line = pathogenorigin, color = pathogenorigin, fill = pathogenorigin) + 
   geom_line(color= pathogenorigin, size = 1.2) + 
   xlab("Avg Plant Species Location \n by Preciptation (mm)") +
@@ -237,4 +237,95 @@ rangeplot <- preddat %>% ggplot(aes(x=Var1, y=preds)) +
         axis.text = element_text(size=12)) +
   theme_classic()
 
+```
+```{r}
+
+preddat3 <- expand.grid((minMAP = seq(200,1600, 200)), pathogenorigin = scale(quantile(dat$pathogenorigin, probs = c(0.1,0.5, 0.9))))
+#preddat <- expand.grid((minMAP = seq(200,1600, 200)), pathogenorigin = quantile(dat$pathogenorigin, probs = 0.9))
+
+#check your data on host origin. Does a ~min of 1800mm/yr + ~max of 3000mm/yr make sense?
+# next, make predictions from the mean estimates of the model using preddat values.
+# re.form = ~0 tells predict to ignore your random effects. Keep this.
+
+#preddat1$preds <- predict(minMAPmod, newdata = preddat1, re.form = ~0)
+#preddat2$preds <- predict(minMAPmod, newdata = preddat1, re.form = ~0)
+
+preddat3 <- rbind(preddat1,preddat2)
+### Bootstrapping --------------------------------------------------------------
+# now it's time to bootstrap to get the CI's around the estimate. Because you've
+# used a linear model this will be pretty quick (maybe 30 seconds) a glmm would take
+# a few hours to run. 
+
+## Bootstrapping Code
+#Create cluster within computer to bootstrap in parallel
+cl <- makeCluster(detectCores()) 
+clusterEvalQ(cl, library(lme4))
+
+# this first step contains some stuff that should look familiar. Preddat should 
+# be identical here to the one above. However, "quantile" won't work within a function.
+# run quantile(dat$pathogenorigin,probs = 0.5) alone to get the absolute value
+# and plug it into the preddat below. It'll be something like 2311 or 2595.
+quantile(dat$pathogenorigin,probs = c(0.1,0.5,0.9))
+pred.fun3 <- function(.) {
+ preddat3 <- expand.grid(minMAP = seq(1500,2700, 200), 
+  pathogenorigin = c(1874,2595,3203))
+  predict(., newdata = preddat5, re.form = ~0)
+}
+
+#make sure the names are correct here, but you should be able to just run this now.
+rangeMAP.boot <- bootMer(minMAPmod, nsim = 1000, FUN = pred.fun3,
+                     parallel="snow", ncpus = detectCores(), 
+                     cl=cl)
+
+#create a folder called "bootoutput" or something to save the files...
+
+#save the output!
+save(meanMAP.boot, file = "bootoutput/meanMAP.boot")
+
+#stop the clusters when you finish,
+#or else your computer will have permanently wonky memory allocation
+stopCluster(cl = cl) 
+
+### Combine predictions and CIs ------------------------------------------------
+
+#merging bootstrapped confidence intervals
+
+#I usually have separate scripts for bootstrapping and making figs, so it makes
+#sense for me to save and load. My boots are also on glmm so saving the output saves me hours.
+#this is still useful to you, but with this bit you wouldn't need to run the boostrapping
+#every time. It's up to you if you ultimately prefer to have all the boostrapping
+#in a separate doc or combined. 
+load("bootoutput/meanMAP.boot") 
+
+preddat3<- data.frame(preddat3, confint(meanMAP.boot))
+
+#just guessing here on the numbers. The final 2 columns of preddat will be lwr and upr.
+#Make sure the numbers reflect the final 2 columns that you need to rename.
+
+names(preddat3)[4:5] <- c("lwr", "upr")  
+
+### Plot it --------------------------------------------------------------------
+
+# below is the basic structure that I'd use for plotting. geom_ribbon (for the CI's)
+# must come before geom_line. I've left this intentionally sparse so that you can
+# make your own aesthetic decisions, and if you google for how to set each up you
+# should be able to make a plot pretty quickly. Nothing needs to go in the () of
+# theme_classic, and it should always be at the end. (you can pick another theme,
+# but I like this one for its simplicity).
+
+
+
+
+ggsave("figures/meanMAP.jpeg", plot = meanplot,
+       height = 8, width = 12, units = "in") 
+
+
+minplot <- preddat3 %>% ggplot(aes(x=Var1, y=preds)) +
+  geom_ribbon(aes(min=lwr, max = upr), alpha = 0.3, line = pathogenorigin, color = pathogenorigin, fill = pathogenorigin) + 
+  geom_line(color= pathogenorigin, size = 1.2) + 
+  xlab("Avg Plant Species Location \n by Preciptation (mm)") +
+  ylab("Percent Leaf Infection") +
+  theme(axis.title = element_text(size = 16),
+        axis.text = element_text(size=12)) +
+  theme_classic()
 ```
