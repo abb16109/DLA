@@ -148,17 +148,18 @@ ggsave("figures/meanMAP.jpeg", plot = meanplot,
 ```
 
 ```{r range}
-preddat2 <- expand.grid((rangeMAP = seq(200,1600, 200)), pathogenorigin = scale(quantile(dat$pathogenorigin, probs = c(0.1,0.5,0.9))))
-#preddat2 <- expand.grid((rangeMAP = seq(200,1600, 200)), pathogenorigin = quantile(dat$pathogenorigin, probs = 0.9))
+preddat2 <- expand.grid(rangeMAP = seq(200,1600, 200),
+                        pathogenorigin = scale(quantile(dat$pathogenorigin,
+                                                      probs = c(0.1,0.5,0.9))))
 
 #check your data on host origin. Does a ~min of 1800mm/yr + ~max of 3000mm/yr make sense?
 # next, make predictions from the mean estimates of the model using preddat values.
 # re.form = ~0 tells predict to ignore your random effects. Keep this.
 
-#preddat1$preds <- predict(rangeMAPmod, newdata = preddat1, re.form = ~0)
-#preddat2$preds <- predict(rangeMAPmod, newdata = preddat1, re.form = ~0)
 
-#preddat3 <- rbind(preddat1,preddat2)
+preddat2$preds <- predict(rangeMAPmod, newdata = preddat2, re.form = ~0)
+
+
 ### Bootstrapping --------------------------------------------------------------
 # now it's time to bootstrap to get the CI's around the estimate. Because you've
 # used a linear model this will be pretty quick (maybe 30 seconds) a glmm would take

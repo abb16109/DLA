@@ -18,7 +18,7 @@ library(patchwork) #joins plots
 library(lme4) #glmms
 library(glmmTMB) #glmmTMB
 library(sjPlot) #residuals
-library(lmerTest)
+library(lmerTest) #get P-Values on lmer mods
 ```
 
 ```{r}
@@ -26,10 +26,10 @@ dat <- read.csv("data/cleaned.data.csv")
 
 dat2 <- read.csv("data/livedifference.csv")
 
-datold <- read.csv("data/livedifferencemeans.csv")
+#datold <- read.csv("data/livedifferencemeans.csv")
 
-datrandar <- dat2 %>% filter(leafsp == "randar") %>% 
-  group_by(leafsp, Isolate) 
+#datrandar <- dat2 %>% filter(leafsp == "randar") %>% 
+ # group_by(leafsp, Isolate) 
 ```
 
 ```{r plots}
