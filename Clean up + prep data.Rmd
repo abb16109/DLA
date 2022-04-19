@@ -23,6 +23,8 @@ library(patchwork) #joins plots
 ```{r data}
 dat <- read.csv("data/DLA Data.csv")
 dat <- dat[c(1:630),] #getting rid of extra rows
+siteinfo <- read.csv("data/SiteInfo_Abby.csv")
+spinfo <- read.csv("data/SpInfoClean_Abby.csv")
 
 ```
 
@@ -36,5 +38,26 @@ dat$lesion3 <- as.numeric(dat$lesion3)
 dat <- mutate(dat,tot.lesion=lesion1+lesion2+lesion3)
 
 dat <- mutate (dat, percent.infection=tot.lesion/area)
+
+```
+
+```{r merge data}
+dat$leafsp <- tolower(dat$leafsp) #you need cases to match
+spinfo <- rename(spinfo, leafsp = Sp)
+dat <- left_join(dat, spinfo, by = "leafsp")
+
+siteinfo <- siteinfo[,-1]
+names(siteinfo)[1] <- "Bosque" 
+siteinfo$code <- as.character(siteinfo$code)
+dat2 <- dat %>% mutate(Isolate = gsub(" ", "", isolate)) %>% 
+  select(-isolate) %>% 
+  mutate(code = str_extract(Isolate,"^."))
+  
+dat2 <- left_join(dat2, siteinfo, by = "code")
+
+dat2 <- rename(dat2, hostorigin = meanMAP, pathogenorigin = MAP)
+
+
+#meanMAP = leaves, MAP = isolate rename 
 ```
 

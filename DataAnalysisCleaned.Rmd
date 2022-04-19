@@ -1,0 +1,86 @@
+---
+title: "DLA_Analyze"
+author: "Abigail Bar"
+date: "3/22/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r packages}
+rm(list = ls ())
+
+library(tidyverse) #to clean data
+library(ggplot2) #plotting
+library(patchwork) #joins plots
+library(lme4) #glmms
+library(glmmTMB) #glmmTMB
+library(sjPlot) #residuals
+library(lmerTest)
+```
+
+```{r}
+dat <- read.csv("data/cleaned.data.csv")
+
+dat2 <- read.csv("data/livedifference.csv")
+
+datold <- read.csv("data/livedifferencemeans.csv")
+
+datrandar <- dat2 %>% filter(leafsp == "randar") %>% 
+  group_by(leafsp, Isolate) 
+```
+
+```{r plots}
+## pathogen orgin vs difference by leafsp
+ggplot(data=dat2, mapping =aes (x=pathogenorigin, y=difference, color=leafsp))+ geom_point()+ geom_smooth(method=lm)+ facet_wrap(~leafsp)
+
+##host origin vs percent inf
+ggplot(dat2, aes(x=hostorigin, y=difference)) + geom_point()+geom_smooth(method=lm)
+
+##pathogen origin vs percent inf
+ggplot(dat2, aes(x=pathogenorigin, y=difference)) + geom_point()+geom_smooth(method=lm)
+
+##range
+ggplot(dat2, aes(x=rangeMAP, y=difference)) + geom_point()+geom_smooth(method=lm)
+
+##min range-->try models 
+ggplot(dat2, aes(x=minMAP, y=difference)) + geom_point()+geom_smooth(method=lm)
+
+##max range
+ggplot(dat2, aes(x=maxMAP, y=difference)) + geom_point()+geom_smooth(method=lm)
+
+```
+
+```{r models}
+#host origin + pathogen origin vs difference
+moda <- lmer(difference ~ scale(hostorigin)*scale(pathogenorigin) + (1|Isolate)+(1|code), data = dat2)
+summary(moda)
+plot_model(moda, type = 'diag') ## I got rid of (1|leafsp/trt), host origin p val below .1, plant species from wetter regions have higher areas on infection
+#avg plant sp habitat vs pathogen damage
+saveRDS(moda, "modeloutput/avgplant.RDS")
+
+## host min range and pathogen origin vs difference
+modb <- lmer(difference ~ scale(minMAP)*scale(pathogenorigin) + (1|Isolate)+(1|code), data = dat2)
+summary(modb) #min --> minimum value increasing = more wet, wet forest species more inf, less inf with wet forest pathogen -- evidence for host specificity - realistic pairs
+plot_model(modb, type = 'diag')
+#min plant sp habitat vs pathogen damage  -- dif lines for pathogen origin
+saveRDS(modb, "modeloutput/minplant.RDS")
+
+## host range and pathogen origin vs difference
+modc <- lmer(difference ~ scale(rangeMAP)*scale(pathogenorigin) + (1|Isolate)+(1|code), data = dat2)
+summary(modc) #range + pathogen origin interaction wide range more likely to be infected by wet forest pathogen than dry forest pathogen, wide range species better defended - less likely to be inf by dry forest pathogens
+plot_model(modc, type = 'diag')
+#habitat range of plant vs pathogen damage -- dif lines for pathogen origin
+saveRDS(modc, "modeloutput/rangeplant.RDS")
+
+```
+
+
+```{r bootstrapping}
+
+
+
+
+```
