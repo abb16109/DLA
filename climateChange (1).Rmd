@@ -7,6 +7,13 @@ number_sections: yes
 toc: true
 ---
 
+Don't run this code once you get it to work the first time. 
+```{r install rnaturalearthhires}
+library(devtools)
+devtools::install_github("ropensci/rnaturalearthhires") #I skip update
+```
+
+
 ```{r packages, warning=FALSE, message=FALSE}
 library(tidyverse)
 library(tidyselect)
@@ -26,16 +33,21 @@ Get precipitation data from Worldclim and coastline from Natural Earth.
 world <- ne_coastline(scale = "medium", returnclass = "sf")
 CAM <- ne_countries(scale = "medium", type = "countries", returnclass = "sf")
 #prec <- raster("data/wc2.0_bio_30s_12.tif") #raster("data/bio12.bil")
-prec <- getData("worldclim", var = "prec", res = 0.5, lon = -80, lat=8) # will work when server is up
-sites <- read.csv("data/sites.csv") #what is the sites file?
+prec <- getData("worldclim", var = "prec", res = 0.5, lon = -80, lat=8)
+sites <- read.csv("data/SiteData_Gradient_Jeffs.csv") #what is the sites file?
 
+```
+
+
+```{r}
+sites <- sites %>% filter(BOSQUE != "Anam") %>% filter(BOSQUE != "Santa Rita")
 ```
 
 Subset Panama data
 
 
 ```{r get_panamadata}
-pan_bounds <- list(x=c(-82, -78), y=c(7, 10))
+pan_bounds <- list(x=c(-81, -78), y=c(8, 10))
 
 ## get data from with each GCM in a column
 pan_prec_df <- prec %>% crop(extent(pan_bounds)) %>%
@@ -73,10 +85,11 @@ pl <-
         plot.margin = unit(c(0.5, 1, 0.5, 1), "cm"), 
         legend.title=element_text(size=9))
 pl
-pl + geom_point(data=sites, aes(y=Latitude, x=Longitude)) +
-  geom_label_repel(data=sites, aes(label=site_code, y=Latitude, x=Longitude), 
-                  size=2)
+siteplot <- pl + geom_point(data=sites, aes(y=lat, x=long))# +
+ # geom_label_repel(data=sites, aes(label=SiteNo, y=lat, x=long), 
+ #                 size=2, nudge_y = 0.25)
 
-
+ggsave("figures/siteplot.jpeg", plot = siteplot, 
+       height = 8, width = 10, units = "in")
 ```
 
