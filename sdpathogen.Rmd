@@ -1,0 +1,59 @@
+---
+title: "variance data"
+author: "Abigail Bar"
+date: "5/22/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+rm(list = ls ())
+
+library(tidyverse) #to clean data
+library(ggplot2) #plotting
+library(patchwork) #joins plots
+library(lme4) #glmms
+library(glmmTMB) #glmmTMB
+library(sjPlot) #residuals
+library(lmerTest)
+```
+
+```{r raw data}
+
+dat <- read.csv("cleaned.data.csv")
+
+dat2 <- select(dat, -c(X.1, area , lesion1, lesion2, lesion3, tot.lesion, Unattributed.infection.area, tot.lesion, medMAP, minMAP, maxMAP, rangeMAP, X, DRY_DEFICIT))
+```
+
+```{r}
+#dat2$pathogenmean <- dat2$pathogenmean()
+
+dat3 <- dat2 %>%
+  group_by(Isolate, control) %>%
+  summarise_at(vars(percent.infection), list(name = mean))
+
+
+dat4 <- left_join(dat2, dat3)
+dat4 <- rename(dat4, meanpathinf = name)
+
+dat4$pathinf <- abs(dat4$meanpathinf - dat4$percent.infection)
+
+
+spl <- split(dat4, f = dat4$control)
+cntrltbl <- spl$cntrl
+exptbl <- spl$live
+
+
+cntrlsds <- aggregate(pathinf ~ hostorigin, cntrltbl, mean )
+cntrlsds
+
+expsds <- aggregate(pathinf ~ hostorigin, exptbl, mean )
+expsds
+
+cntrlplot <- plot(cntrlsds$hostorigin,cntrlsds$pathinf)
+cntrlplot
+
+expplot <- plot(expsds$hostorigin,expsds$pathinf)
+expplot
+```
