@@ -17,43 +17,96 @@ library(lme4) #glmms
 library(glmmTMB) #glmmTMB
 library(sjPlot) #residuals
 library(lmerTest)
+library("glmmTMB")
 ```
 
 ```{r raw data}
 
-dat <- read.csv("cleaned.data.csv")
+dat <- read.csv("data/cleaned.data.csv")
 
 dat2 <- select(dat, -c(X.1, area , lesion1, lesion2, lesion3, tot.lesion, Unattributed.infection.area, tot.lesion, medMAP, minMAP, maxMAP, rangeMAP, X, DRY_DEFICIT))
 ```
 
 ```{r}
+
+##sd
+dat3 <- dat2 %>%
+  group_by(Isolate, pathogenorigin, control) %>%
+  summarise_at(vars(percent.infection), list(name = sd))
+##check
+sd(dat2[which(dat2$Isolate=="411Laciag" & dat$control == "cntrl"),"percent.infection"])
+
+names(dat3)[4] <- "SDinfection"
+
+
+spl <- split(dat3, f = dat3$control)
+cntrltbl <- spl$cntrl
+exptbl <- spl$live
+plot(cntrltbl$pathogenorigin, cntrltbl$SDinfection)
+plot(exptbl$pathogenorigin, exptbl$SDinfection)
+### possibly unneccessary
+
+lmmod <- lm(exptbl$SDinfection ~ exptbl$pathogenorigin)
+predict(lmmod)
+plot1 <- plot(exptbl$pathogenorigin, exptbl$SDinfection)
+plot2 <- ggplot(exptbl, aes (x=pathogenorigin, y=SDinfection)) +
+  geom_point () +
+  geom_smooth(method = lm)
+plot2
+
+
+tmbtest <- glmmTMB(SDinfection ~ pathogenorigin, data=dat3, family = beta_family)
+summary(tmbtest)
+
+#5 points
+#dat4 <- left_join(dat2, dat3)
+dat4 <- dat2 %>%
+  group_by(pathogenorigin, control) %>%
+  summarise_at(vars(percent.infection), list(name = sd))
+
+spl <- split(dat4, f = dat4$control)
+cntrltbl2 <- spl$cntrl
+exptbl2 <- spl$live
+plot(cntrltbl2$pathogenorigin, cntrltbl2$name)
+plot(exptbl2$pathogenorigin, exptbl2$name)
+
+
+
+
+```
+
+```{r test}
+
+
 #dat2$pathogenmean <- dat2$pathogenmean()
 
-dat3 <- dat2 %>%
+##mean
+dat5 <- dat2 %>%
   group_by(Isolate, control) %>%
   summarise_at(vars(percent.infection), list(name = mean))
 
-
-dat4 <- left_join(dat2, dat3)
-dat4 <- rename(dat4, meanpathinf = name)
-
-dat4$pathinf <- abs(dat4$meanpathinf - dat4$percent.infection)
+#dat4$pathinf <- abs(dat4$meanpathinf - dat4$percent.infection)
 
 
-spl <- split(dat4, f = dat4$control)
-cntrltbl <- spl$cntrl
-exptbl <- spl$live
+#spl2 <- split(dat4, f = control*Isolate)
+
+#spl <- split(dat4, f = dat4$control)
+#cntrltbl <- spl$cntrl
+#exptbl <- spl$live
 
 
-cntrlsds <- aggregate(pathinf ~ hostorigin, cntrltbl, mean )
-cntrlsds
+#cntrlsds <- aggregate(pathinf ~ hostorigin, cntrltbl, mean )
+#cntrlsds
 
-expsds <- aggregate(pathinf ~ hostorigin, exptbl, mean )
-expsds
+#expsds <- aggregate(pathinf ~ hostorigin, exptbl, mean )
+#expsds
 
-cntrlplot <- plot(cntrlsds$hostorigin,cntrlsds$pathinf)
-cntrlplot
+#cntrlplot <- plot(cntrlsds$hostorigin,cntrlsds$pathinf)
+#cntrlplot
 
-expplot <- plot(expsds$hostorigin,expsds$pathinf)
-expplot
+#expplot <- plot(expsds$hostorigin,expsds$pathinf)
+#expplot
+
+
+#glmmTMB{pathinf ~ expsds, data = expsds}
 ```
